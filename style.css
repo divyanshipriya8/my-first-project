@@ -1,0 +1,53 @@
+body{
+  margin:0;
+  font-family: Arial;
+  background: linear-gradient(135deg, #ff6a88, #a18cd1, #84fab0);
+  display:flex;
+  justify-content:center;
+  padding:30px;
+}
+.card{
+  background:white;
+  width:90%;
+  max-width:550px;
+  padding:30px;
+  border-radius:25px;
+  text-align:center;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+}
+.photo{
+  width:120px;
+  height:120px;
+  border-radius:50%;
+  border:4px solid #ff6a88;
+}
+h1{ color:#333; margin:10px 0 5px; }
+.tag{ color:#ff6a88; font-weight:bold; }
+.about{ color:#555; line-height:1.5; }
+.skills span{
+  display:inline-block;
+  background:#ffe0e8;
+  color:#d6336c;
+  padding:8px 14px;
+  margin:5px;
+  border-radius:20px;
+  font-weight:bold;
+}
+.project{
+  background:#f0f0ff;
+  padding:15px;
+  border-radius:15px;
+  margin:10px 0;
+}
+button{
+  background: linear-gradient(90deg, #ff6a88, #a18cd1);
+  color:white;
+  border:none;
+  padding:12px 25px;
+  border-radius:25px;
+  font-size:16px;
+  cursor:pointer;
+}
+button:hover{ transform:scale(1.05); }
+#msg{ color:green; font-weight:bold; margin-top:10px; }
+.footer{ margin-top:20px; color:#999; font-size:13px; }
